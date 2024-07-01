@@ -32,9 +32,29 @@ ul {
     padding-top: 2rem;
     
 }
+ul {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 ul li {
-   list-style: none;
+
+   list-style: square;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
+   border-bottom:2px solid #d9534f;
+   margin-bottom: 1.5rem;
+}
+li a {
+    color: #d9534f;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+li a:hover {
+    text-decoration: line-through;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
 }
